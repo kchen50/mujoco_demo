@@ -3,7 +3,7 @@ import time
 import mujoco
 import mujoco.viewer
 
-scene_path = "./unitree_a1/scene.xml"
+scene_path = "./scene.xml"
 m = mujoco.MjModel.from_xml_path(scene_path)
 d = mujoco.MjData(m)
 
